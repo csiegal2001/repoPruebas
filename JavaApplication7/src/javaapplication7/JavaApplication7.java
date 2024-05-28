@@ -15,10 +15,23 @@ public class JavaApplication7 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        
+
         System.out.println(".l.");
         
         //esto es una prueba
+        
+        for (int i = 0; i < 10; i++) {
+            System.out.println(".l.");
+        }
+        
+        public void mostrarDialogoAviso(String mensaje) {
+        Alert alert = new Alert(Alert.AlertType.WARNING);
+        alert.setTitle("Diálogo de aviso...");
+        alert.setHeaderText(null);
+        alert.setContentText(mensaje);
+        alert.showAndWait();
     }
-    
+
+}
+
 }
